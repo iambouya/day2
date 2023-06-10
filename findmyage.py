@@ -9,4 +9,5 @@ y = datetime.datetime.now()
 print(y)
 
 ageresult =  y - ma
-print(ageresult)
+ageresult2 = ageresult.days / 365
+print("Bouya age >", ageresult2)
